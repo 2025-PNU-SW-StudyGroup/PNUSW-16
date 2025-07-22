@@ -1,0 +1,8 @@
+.nav_div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.material-symbols-outlined{
+    color: #E57373;
+}
