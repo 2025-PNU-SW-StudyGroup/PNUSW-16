@@ -1,19 +1,8 @@
-.nav_div {
+.nav_div{
     display: flex;
     justify-content: space-between;
 }
 
-.material-symbols-outlined {
+.material-symbols-outlined{
     color: #E57373;
-}
-.nav_part{
-    width: 30px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.nav_part:hover {
-    background-color: rgb(249, 154, 154, 0.5);
-    border-radius: 30%;
 }

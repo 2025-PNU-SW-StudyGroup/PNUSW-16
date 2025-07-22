@@ -6,16 +6,16 @@ function Nav(){
         <nav>
             <div className="nav_div">
                 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-                <div className="nav_part">
+                <div className="home">
                     <span class="material-symbols-outlined">home</span>
                 </div>
-                <div className="nav_part">
+                <div className="list">
                     <span class="material-symbols-outlined">list</span>
                 </div>
-                <div className="nav_part">
+                <div className="map">
                     <span class="material-symbols-outlined">map</span>
                 </div>
-                <div className="nav_part">
+                <div className="mypage">
                     <span class="material-symbols-outlined">person</span>
                 </div>
             </div>
