@@ -1,9 +1,11 @@
 function Header(){
     return (
         <>
-        <div className="Header">
+        <div className="header_div">
+            <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
             <h1>NaviDate</h1>
-            <p>icon 들어갈거임</p>
+            <span class="material-symbols-outlined">notifications</span>
+
 
         </div>
         </>
