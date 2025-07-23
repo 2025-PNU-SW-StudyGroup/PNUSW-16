@@ -1,11 +1,11 @@
 import './Signup1.css';
-import { useNavigate } from 'react-router-dom'; // ✅ 이거 꼭 필요해!
+import { useNavigate } from 'react-router-dom';
 
 function Signup1() {
-  const navigate = useNavigate(); // ✅ 페이지 이동을 위한 함수
+  const navigate = useNavigate(); // 
 
   const handleGenderClick = (gender) => {
-    navigate('/signup2', { state: { gender } }); // ✅ 성별 정보를 다음 페이지로 전달
+    navigate('/signup2', { state: { gender } }); // 
   };
 
   return (
