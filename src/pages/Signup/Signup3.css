@@ -79,6 +79,11 @@ h2 {
   background-color: #eabbbb;
 }
 
+.type-button.selected {
+  background-color: #f99a9a;
+  color: white;
+  font-weight: 500;
+}
 .submit-button {
   display: flex;
   align-items: center;
