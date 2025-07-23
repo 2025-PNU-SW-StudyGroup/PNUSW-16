@@ -34,7 +34,7 @@
 }
 .title_box {
     height: 40px;
-    width: 130px;
+    width: 150px;
     border-radius: 12px;
     background-color: #F9BABA;
     justify-items: center;
@@ -47,8 +47,8 @@
     box-sizing: border-box;
 }
 .topic-tap {
-    width: 130px;
-    height: 40px;
+    width: 70px;
+    height: 30px;
     background-color: #F9BABA;
     border-radius: 12px;
     justify-items: center;

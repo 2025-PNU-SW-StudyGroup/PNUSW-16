@@ -55,12 +55,13 @@ function Home(){
             </div>
             <div className="part_rising">
                 <div className="rising_header">
-                    <div className="title_box">지금 뜨는 장소</div>
+                    <div className="title_box">
+                        {selectedDistrict ? `${selectedDistrict}의 인기 topic` : "관심 있는 장소"}
+                    </div>
+
                     {!selectedDistrict &&( <p>* 관심 있는 구를 선택하세요.</p> )}
                     {selectedDistrict && (
-                        <div className="topic-tap" onClick={handleReset}>
-                            전체
-                        </div>
+                        <div className="topic-tap" onClick={handleReset}>전체</div>
                     )}
                 </div>
 
