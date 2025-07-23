@@ -55,7 +55,7 @@ function Home(){
             </div>
             <div className="part_rising">
                 <div className="rising_header">
-                    <div className="title_box">지금 뜨는 분야</div>
+                    <div className="title_box">지금 뜨는 장소</div>
                     {!selectedDistrict &&( <p>* 관심 있는 구를 선택하세요.</p> )}
                     {selectedDistrict && (
                         <div className="topic-tap" onClick={handleReset}>
