@@ -2,10 +2,10 @@ import './Signup1.css';
 import { useNavigate } from 'react-router-dom';
 
 function Signup1() {
-  const navigate = useNavigate(); // 
+  const navigate = useNavigate(); 
 
   const handleGenderClick = (gender) => {
-    navigate('/signup2', { state: { gender } }); // 
+    navigate('/signup2', { state: { gender } });  
   };
 
   return (

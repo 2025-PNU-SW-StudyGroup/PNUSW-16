@@ -50,7 +50,7 @@ h2 {
   height: 32px;
   border-radius: 16px;
   font-size: 0.9rem;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .type {
@@ -89,6 +89,7 @@ h2 {
   border: none;
   border-radius: 16px;
   padding: 0.45rem 2rem;
-  font-size: 1rem;
+  font-size: 0.9rem;
   cursor: pointer;
+  font-weight: 600;
 }
