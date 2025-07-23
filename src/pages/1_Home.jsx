@@ -40,6 +40,12 @@ function Home(){
             console.log(`${district} 선택`);
     };
 
+    const handleReset = () => {
+        setSelectedDistrict(null);
+        setTopics([]);
+    };
+
+
     return (
         <>
         <Header></Header>
@@ -51,7 +57,11 @@ function Home(){
                 <div className="rising_header">
                     <div className="title_box">지금 뜨는 분야</div>
                     {!selectedDistrict &&( <p>* 관심 있는 구를 선택하세요.</p> )}
-                    {selectedDistrict && ( <div className="topic-tap"> 전체 </div>)}
+                    {selectedDistrict && (
+                        <div className="topic-tap" onClick={handleReset}>
+                            전체
+                        </div>
+                    )}
                 </div>
 
                 <div className="check_area">
