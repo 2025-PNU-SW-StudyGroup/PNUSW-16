@@ -14,17 +14,16 @@
     margin-bottom: 10px;
     
 }
-.rising_topic {
+.part_rising {
     display: flex;
     flex-direction: column;
     flex-grow: 2;
     height: 260px;
     width: 310px;
     background-color: #FCE0DF;
-    justify-content: top;
     margin-bottom: 15px;
 }
-.rising_title {
+.rising_header {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -43,9 +42,19 @@
     font-size: 13px;
     font-weight: bold;
 }
-.rising_title > p {
+.rising_header > p {
     font-size: 8px;
     box-sizing: border-box;
+}
+.topic-tap {
+    width: 130px;
+    height: 40px;
+    background-color: #F9BABA;
+    border-radius: 12px;
+    justify-items: center;
+    align-content: center;
+    font-size: 13px;
+    font-weight: bold;
 }
 .check_area {
     max-width: 320px;
@@ -68,4 +77,24 @@
     border-radius: 12px;
     background-color: #F9CACA;
     white-space: nowrap;
+}
+.topic-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+.topic-item {
+    width: 290px;
+    height: 30px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9CACA;
+    margin: 3px;
+    box-sizing: border-box;
 }
