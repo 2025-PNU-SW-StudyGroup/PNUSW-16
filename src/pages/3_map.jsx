@@ -9,7 +9,7 @@ function KakaoMap(){
     return (
         <>
         <Header />
-        <div style={{display: "flex", justifyContent: "center"}}>
+        <div style={{display: "flex", justifyContent: "center", flexGrow: "1"}}>
         <div className="map-container">
             <div className="map-header">추천 데이트 장소 및 코스를 지도로 확인해 보세요.</div>
             <Map className="part-map"

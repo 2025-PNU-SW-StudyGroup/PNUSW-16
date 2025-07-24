@@ -14,6 +14,12 @@ html, body {
   height: 100vh;
 
 }
+.start-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .map {
   display: flex;
