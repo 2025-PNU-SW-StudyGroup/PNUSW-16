@@ -1,10 +1,11 @@
+import './Header.css'
+
 function Header(){
     return (
         <>
-        <div className="Header">
+        <div className="header_div">
             <h1>NaviDate</h1>
-            <p>icon 들어갈거임</p>
-
+            <span className="material-symbols-outlined">notifications</span>
         </div>
         </>
     )
