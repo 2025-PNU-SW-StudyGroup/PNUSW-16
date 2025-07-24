@@ -7,7 +7,7 @@ function Nav(){
         <nav>
             <div className="nav_div">
                 <div className="nav_part">
-                    <Link to={'/'}>
+                    <Link to={'/home'}>
                     <span className="material-symbols-outlined">home</span>
                     </Link>
                 </div>

@@ -1,5 +1,5 @@
 import './Signup3.css'
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 
 function Signup3() {
@@ -22,10 +22,12 @@ function Signup3() {
   };
 
   const isSelected = (label) => selectedTypes.includes(label);
+  const navigate = useNavigate()
 
   const handleSubmit = () => {
     if (selectedTypes.length >= 3) {
       alert(`성별: ${gender}, 나이대: ${age}, 취향: ${selectedTypes.join(', ')}`);
+      navigate('/home')
       // 여기서 서버 전송 또는 다음 페이지 이동 가능
     } else {
       alert("취향을 3개 이상 선택해 주세요!");
