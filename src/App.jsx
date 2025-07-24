@@ -6,7 +6,6 @@ import Home from './pages/1_Home';
 import KakaoMap from './pages/3_map';
 
 function App() {
-
   return (
     <>
     <Routes>
@@ -18,3 +17,4 @@ function App() {
 }
 
 export default App
+
