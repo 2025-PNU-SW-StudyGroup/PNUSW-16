@@ -56,7 +56,7 @@ function Home(){
             <div className="part_rising">
                 <div className="rising_header">
                     <div className="title_box">
-                        {selectedDistrict ? `${selectedDistrict}의 인기 topic` : "관심 있는 장소"}
+                        {selectedDistrict ? `${selectedDistrict}의 인기 topic` : "인기 Topic"}
                     </div>
 
                     {!selectedDistrict &&( <p>* 관심 있는 구를 선택하세요.</p> )}
