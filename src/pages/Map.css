@@ -1,13 +1,18 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
 .map-container {
     width: 310px;
-    height: 600px;
+    flex: 1;
     display: flex;
     flex-direction: column;
     margin-bottom: 2rem;
-    
+    overflow-y: auto;
 }
 .map-header {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: bolder;
     color: #E57373;
     white-space: pre-wrap;

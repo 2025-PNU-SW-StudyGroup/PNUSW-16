@@ -7,7 +7,7 @@ import './Map.css';
 function KakaoMap(){
 
     return (
-        <>
+        <div className="app-container">
         <Header />
         <div style={{display: "flex", justifyContent: "center", flexGrow: "1"}}>
         <div className="map-container">
@@ -19,7 +19,7 @@ function KakaoMap(){
         </div>
         </div>
         <Nav />
-        </>
+        </div>
     )
 }
 
