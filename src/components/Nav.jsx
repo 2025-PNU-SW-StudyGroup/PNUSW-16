@@ -5,18 +5,25 @@ function Nav(){
     return(
         <nav>
             <div className="nav_div">
-                <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-                <div className="home">
-                    <span class="material-symbols-outlined">home</span>
+                <div className="nav_part">
+                    <Link to={'/'}>
+                    <span className="material-symbols-outlined">home</span>
+                    </Link>
                 </div>
-                <div className="list">
-                    <span class="material-symbols-outlined">list</span>
+                <div className="nav_part">
+                    <Link to={'/list'}>
+                    <span className="material-symbols-outlined">list</span>
+                    </Link>
                 </div>
-                <div className="map">
-                    <span class="material-symbols-outlined">map</span>
+                <div className="nav_part">
+                    <Link to={'/map'}>
+                    <span className="material-symbols-outlined">map</span>
+                    </Link>
                 </div>
-                <div className="mypage">
-                    <span class="material-symbols-outlined">person</span>
+                <div className="nav_part">
+                    <Link to={'/mypage'}>
+                    <span className="material-symbols-outlined">person</span>
+                    </Link>
                 </div>
             </div>
         </nav>
