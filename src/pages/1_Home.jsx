@@ -47,7 +47,7 @@ function Home(){
 
 
     return (
-        <>
+        <div className="app-container">
         <Header></Header>
         <div className="container">
             <div className="part_ad">
@@ -93,7 +93,7 @@ function Home(){
             </div>
         </div>
         <Nav></Nav>
-        </>
+        </div>
 
     )
 }
