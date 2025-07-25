@@ -6,7 +6,9 @@ import Signup1 from './pages/Signup/Signup1';
 import Signup2 from './pages/Signup/Signup2';
 import Signup3 from './pages/Signup/Signup3';
 import Home from './pages/1_Home';
+import List from './pages/2_List';
 import KakaoMap from './pages/3_map';
+import Mypage from './pages/4_Mypage';
 
 function App() {
   return (
@@ -17,7 +19,10 @@ function App() {
       <Route path="/signup2" element={<Signup2 />} />
       <Route path="/signup3" element={<Signup3 />} />
       <Route path='/home' element={<Home />} />
+      <Route path="/List" element={<List />} />
       <Route path='/map' element={<KakaoMap />} />
+      <Route path="/Mypage" element={<Mypage />} />
+
     </Routes>
     </>
   )
