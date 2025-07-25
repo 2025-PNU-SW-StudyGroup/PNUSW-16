@@ -47,42 +47,42 @@ function Home(){
 
 
     return (
-        <div className="app-container">
+        <div className="appContainer">
         <Header></Header>
-        <div className="container">
-            <div className="part_ad">
+        <div className="homeContainer">
+            <div className="partAd">
                 event or ad
             </div>
-            <div className="part_rising">
-                <div className="rising_header">
-                    <div className="title_box">
+            <div className="partRising">
+                <div className="risingHeader">
+                    <div className="titleBox">
                         {selectedDistrict ? `${selectedDistrict}의 인기 topic` : "인기 Topic"}
                     </div>
 
                     {!selectedDistrict &&( <p>* 관심 있는 구를 선택하세요.</p> )}
                     {selectedDistrict && (
-                        <div className="topic-tap" onClick={handleReset}>전체</div>
+                        <div className="topicTap" onClick={handleReset}>다시 선택</div>
                     )}
                 </div>
 
-                <div className="check_area">
+                <div className="checkArea">
                     {!selectedDistrict && (
-                    <div className="area_list">
+                    <div className="areaList">
                         {districts.map((district) => (
                             <button
                             key={district}
                             onClick={() => handleClick(district)}
-                            className={`district-button ${selectedDistrict === district ? 'selected' : ''}`}>
+                            className={`districtButton ${selectedDistrict === district ? 'selected' : ''}`}>
                             {district}
                             </button>
                         ))}
                     </div>
                     )}
                     {selectedDistrict &&(
-                        <div className="topic-container">
-                            <ul className="topic-list">
+                        <div className="topicContainer">
+                            <ul className="topicList">
                             {topics.map((topic, index) => (
-                                <li key={index} className="topic-item">
+                                <li key={index} className="topicItem">
                                 {index + 1}위. {topic}
                                 </li>
                             ))}

@@ -1,7 +1,10 @@
 .appContainer {
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .mypageContainer {
@@ -10,24 +13,22 @@
   max-width: 600px;
   margin: 0 auto;
   overflow-y: auto;
-
   display: flex;
   flex-direction: column;
   align-items: center;
-
   box-sizing: border-box;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .profile {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   width: 100%;
   max-width: 600px;
   margin: 16px 0;
   padding: 8px 0;
-
   background-color: #F9CACA;
   border-radius: 12px;
 }
@@ -36,30 +37,27 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   width: 80px;
   height: 80px;
   margin-bottom: 8px;
-
   font-size: 48px;
   background-color: white;
   border-radius: 50%;
 }
 
 .profileName {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
   margin-bottom: 4px;
 }
 
 .profileEmail {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .profileButtonContainer {
   display: flex;
   gap: 8px;
-
   width: 100%;
   max-width: 600px;
   margin-bottom: 12px;
@@ -68,8 +66,7 @@
 .profileButton {
   flex: 1;
   padding: 8px;
-
-  font-size: 12px;
+  font-size: 16px;
   background-color: #FCE0DF;
   border: none;
   border-radius: 8px;
@@ -81,11 +78,9 @@
   max-width: 600px;
   padding: 10px;
   margin-bottom: 8px;
-
-  font-size: 14px;
+  font-size: 18px;
   font-weight: bold;
   color: #000000;
-
   background-color: #F9CACA;
   border: none;
   border-radius: 8px;
@@ -97,8 +92,7 @@
   max-width: 600px;
   padding: 8px;
   margin-bottom: 8px;
-
-  font-size: 12px;
+  font-size: 16px;
   background-color: #FCE0DF;
   border: none;
   border-radius: 8px;
@@ -109,7 +103,6 @@
   width: 100%;
   max-width: 600px;
   margin-bottom: 4px;
-
   box-sizing: border-box;
 }
 
@@ -117,21 +110,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   margin-bottom: 4px;
-  padding: 0 16px;
-
+  padding: 0;
   white-space: nowrap;
 }
 
 .savedTitle {
   display: inline-block;
   flex-shrink: 0;
-
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   color: #E57373;
-
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -144,37 +133,39 @@
 }
 
 .itemContainer {
-  padding: 0 16px;
+  padding: 0;
 }
 
 .itemHeader {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-
+  gap: 8px;
   margin-bottom: 4px;
+  white-space: nowrap;
 }
 
 .itemTitle {
   display: inline-block;
-  max-width: calc(100% - 24px);
-
+  width: auto;
+  max-width: max-content;
   padding: 4px 8px;
-
-  font-size: 12px;
-  background-color: #FCE0DF;
   border-radius: 12px;
-
+  background-color: #FCE0DF;
+  font-size: 16px;
+  white-space: normal;
   overflow-wrap: break-word;
   word-break: break-word;
+  overflow: visible;
+  text-overflow: clip;
   box-sizing: border-box;
+  flex-shrink: 0;
 }
 
 .itemBox {
   width: 100%;
   height: 40px;
-  margin-bottom: 12px;
-
+  margin-bottom: 4px;
   background-color: #FCE0DF;
   border-radius: 12px;
 }
