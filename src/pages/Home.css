@@ -1,108 +1,127 @@
 .app-container {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-}
-.container {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    align-items: center;
-    margin-top: 1rem;
-    overflow-y: auto;
-
-}
-.part_ad {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 370px;
-    width: 310px;
-    background-color: #FCE0DF;
-    margin-bottom: 10px;
-    
-}
-.part_rising {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 2;
-    height: 260px;
-    width: 310px;
-    background-color: #FCE0DF;
-    margin-bottom: 15px;
-}
-.rising_header {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 20%;
-    justify-content: space-between;
-    padding: 10px;
-    box-sizing: border-box;
-}
-.title_box {
-    height: 40px;
-    width: 150px;
-    border-radius: 12px;
-    background-color: #F9BABA;
-    justify-items: center;
-    align-content: center;
-    font-size: 13px;
-    font-weight: bold;
-}
-.rising_header > p {
-    font-size: 8px;
-    box-sizing: border-box;
-}
-.topic-tap {
-    width: 70px;
-    height: 30px;
-    background-color: #F9BABA;
-    border-radius: 12px;
-    justify-items: center;
-    align-content: center;
-    font-size: 13px;
-    font-weight: bold;
-}
-.check_area {
-    max-width: 320px;
-    height: auto;
-    box-sizing: border-box;
-}
-.area_list {
-    width: 100%;
-    padding: 10px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 4px;
-    box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
-.district-button {
-    width: 100%;
-    height: 30px;
-    border: none;
-    border-radius: 12px;
-    background-color: #F9CACA;
-    white-space: nowrap;
+.homeContainer {
+  flex: 1;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
-.topic-list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    list-style: none;
-    padding: 0;
-    width: 100%;
-    box-sizing: border-box;
+
+.partAd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 375px;
+  width: 100%;
+  background-color: #FCE0DF;
+  margin: 8px;
 }
-.topic-item {
-    width: 290px;
-    height: 30px;
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #F9CACA;
-    margin: 3px;
-    box-sizing: border-box;
+
+.partRising {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #FCE0DF;
+  padding: 8px;
+  gap: 8px;
+  box-sizing: border-box;
+}
+
+.risingHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  gap: 8px;
+}
+
+.titleBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 12px;
+  border-radius: 12px;
+  background-color: #F9BABA;
+  font-size: 16px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.risingHeader > p {
+  font-size: 12px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.topicTap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 12px;
+  background-color: #F9BABA;
+  font-size: 12px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.checkArea {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.areaList {
+  width: 100%;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  box-sizing: border-box;
+}
+
+.districtButton {
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-radius: 12px;
+  background-color: #F9CACA;
+  white-space: nowrap;
+}
+
+.topicList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.topicItem {
+  width: 290px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background-color: #F9CACA;
+  margin: 3px;
+  box-sizing: border-box;
 }
